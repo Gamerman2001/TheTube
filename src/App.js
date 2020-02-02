@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.scss';
+import HeaderNav from './containers/HeaderNav/HeaderNav'
 
 function App() {
   return (
-    <div className="App">
-      testing
+    <div >
+      <HeaderNav />
     </div>
   );
 }
