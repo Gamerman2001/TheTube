@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './SideBar.scss'
-import SideBarItem from './SideBarItem/SideBarItem.js'
-import {Menu} from 'semantic-ui-react'
+import {SideBarItem} from './SideBarItem/SideBarItem'
+import {Menu, Divider} from 'semantic-ui-react'
 
 export default class SideBar extends Component {
   render() {
@@ -10,14 +10,17 @@ export default class SideBar extends Component {
         <SideBarItem highlight={true} label='Home'icon='home'/>
         <SideBarItem label='Trending' icon='fire'/>
         <SideBarItem label='Followers' icon='spy'/>
+        <Divider />
         <SideBarItem label='History' icon='history'/>
         <SideBarItem label='Watch Later' icon='clock'/>
         <SideBarItem label='Liked Videos' icon='thumbs up'/>
+        <Divider />
         <SideBarItem label='Movies and Shows' icon='film'/>
+        <Divider /> 
         <SideBarItem label='Report History' icon='flag'/>
         <SideBarItem label='Help' icon='help circle'/>
         <SideBarItem label='Send Feedback' icon='comment'/>
-        <SideBarItem />
+        <Divider /> 
         
       </Menu>
     )
