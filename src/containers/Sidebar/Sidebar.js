@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './SideBar.scss'
 import {SideBarItem} from './SideBarItem/SideBarItem'
 import {Menu, Divider} from 'semantic-ui-react'
+import {SideBarHeader} from './SideBarHeader/SideBarHeader'
 
 export default class SideBar extends Component {
   render() {
@@ -11,10 +12,12 @@ export default class SideBar extends Component {
         <SideBarItem label='Trending' icon='fire'/>
         <SideBarItem label='Followers' icon='spy'/>
         <Divider />
+        <SideBarHeader title='Library' />
         <SideBarItem label='History' icon='history'/>
         <SideBarItem label='Watch Later' icon='clock'/>
         <SideBarItem label='Liked Videos' icon='thumbs up'/>
-        <Divider />
+        <Divider />        
+        <SideBarHeader title='More from Youtube' />
         <SideBarItem label='Movies and Shows' icon='film'/>
         <Divider /> 
         <SideBarItem label='Report History' icon='flag'/>
