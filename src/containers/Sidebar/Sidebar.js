@@ -4,6 +4,7 @@ import {SideBarItem} from './SideBarItem/SideBarItem'
 import {Menu, Divider} from 'semantic-ui-react'
 import {SideBarHeader} from './SideBarHeader/SideBarHeader'
 
+
 export default class SideBar extends Component {
   render() {
     return (
