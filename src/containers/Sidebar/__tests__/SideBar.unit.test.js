@@ -1,10 +1,10 @@
 import React from 'react'
 import {shallow} from 'enzyme'
-import {HeaderNav} from '../HeaderNav'
+import {SideBar} from '../SideBar'
 
-test('Renders HeaderNav', ()=>{
+test('should render Sidebar', ()=> {
   const wrapper = shallow(
-    <HeaderNav />
-  );
+    <SideBar />
+  )
   expect(wrapper).toMatchSnapshot()
 })

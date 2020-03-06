@@ -3,7 +3,7 @@ import { Image, Menu, Form, Input,Icon } from "semantic-ui-react";
 import "./HeaderNav.scss";
 import logo from "../../assets/images/TheTube.png";
 
-export default class HeaderNav extends Component {
+export  class HeaderNav extends Component {
 
 
   render() {

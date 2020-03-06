@@ -3,7 +3,7 @@ import "./SideBarFooter.scss";
 
 export function SideBarFooter() {
   return (
-    <>
+    <React.Fragment>
       <div className="footer-block">
         <div>About Press Copywright</div>
         <div>Creators Advertise</div>
@@ -24,6 +24,6 @@ export function SideBarFooter() {
           fair use.
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 }
