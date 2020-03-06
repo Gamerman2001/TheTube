@@ -8,6 +8,12 @@ export class Subscriptions extends Component {
     return (
       <>
       <SideBarHeader title='subscriptons'/>
+      <Subscription label='MusicChannel' broadcasting />
+      <Subscription label='Courseara' amountNewVideos={10} />
+      <Subscription label='TEDx Talks' amountNewVideos={23} />
+      <Subscription label='Stanford iOS' amountNewVideos={4} />
+      <Subscription label='Udacity' amountNewVideos={112} />
+      <Divider />
       </>
     )
   }

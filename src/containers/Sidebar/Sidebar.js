@@ -25,7 +25,6 @@ export default class SideBar extends Component {
         <SideBarItem label='Help' icon='help circle'/>
         <SideBarItem label='Send Feedback' icon='comment'/>
         <Divider /> 
-        
       </Menu>
     )
   }
