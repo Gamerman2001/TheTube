@@ -1,9 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render SidebarFooter 1`] = `
-<div
-  className="ui menu"
->
-  <Component />
-</div>
+exports[`SideBarFooter should render SidebarFooter 1`] = `
+<Fragment>
+  <div
+    className="footer-block"
+  >
+    <div>
+      About Press Copywright
+    </div>
+    <div>
+      Creators Advertise
+    </div>
+    <div>
+      Developers +MyTube
+    </div>
+    <div>
+      Legal
+    </div>
+  </div>
+  <div
+    className="footer-block"
+  >
+    <div>
+      Terms Privacy
+    </div>
+    <div>
+      Policy & Safety
+    </div>
+    <div>
+      Test new Features
+    </div>
+  </div>
+  <div
+    className="footer-block"
+  >
+    <div>
+      All prices include VAT
+    </div>
+  </div>
+  <div
+    className="footer-block"
+  >
+    <div>
+      © Productioncoder.com - A Youtube clone for educational purposes under fair use.
+    </div>
+  </div>
+</Fragment>
 `;
