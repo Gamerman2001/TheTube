@@ -11,12 +11,21 @@ exports[`Renders HeaderNav 1`] = `
       className="logo"
       header={true}
     >
-      <Image
-        as="img"
-        size="tiny"
-        src="TheTube.png"
-        ui={true}
-      />
+      <Link
+        to="/"
+      >
+        <Image
+          as="img"
+          size="tiny"
+          src="TheTube.png"
+          style={
+            Object {
+              "border": "2px solid blue",
+            }
+          }
+          ui={true}
+        />
+      </Link>
     </MenuItem>
     <MenuMenu
       className="nav-container"

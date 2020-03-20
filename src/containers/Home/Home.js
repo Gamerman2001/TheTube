@@ -10,7 +10,7 @@ export class Home extends Component {
       <>
         
           <SideBar />
-          <div class="home">
+          <div className="home">
           <div className="responsive-video-grid-container">
             <VideoGrid title="Trending" />
             <VideoGrid title="Autos & Vehicles" hideDivider={true} />

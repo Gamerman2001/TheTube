@@ -3,7 +3,16 @@
 exports[`Renders App component 1`] = `
 <div>
   <AppLayout>
-    <Home />
+    <Switch>
+      <Route
+        component={[Function]}
+        path="/watch"
+      />
+      <Route
+        component={[Function]}
+        path="/"
+      />
+    </Switch>
   </AppLayout>
 </div>
 `;
