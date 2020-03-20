@@ -1,7 +1,14 @@
 @import "../../styles/shared.scss";
 
+.video-preview {
+  display: grid;
+  grid: 118px auto / 210px;
+}
+
 .video-info {
   color: $text-color-dark;
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
 
   .video-preview-metadata-container {
     padding-top: 5px;
@@ -26,16 +33,13 @@
   }
 }
 
-.video-preview {
-  display: grid;
-  grid: 118px auto / 210px;
-}
 
 .image-container {
   position: relative;
   grid-row: 1 / 2;
   grid-column: 1 /2;
 
+  //video duration label
   .time-label {
     position: absolute;
     background: $text-color-dark;

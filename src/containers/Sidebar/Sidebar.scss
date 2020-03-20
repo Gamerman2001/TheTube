@@ -4,7 +4,8 @@ $sidebar-hover-color: #ebebeb;
   background-color: #f5f5f5;
   margin-top: $header-nav-height;
   overflow-y: auto;
-  padding-bottom: 64px;
+  padding-bottom: $header-nav-height;
+  width: $sidebar-left-width;
   .sidebar-item:hover {
     background: #ebebeb;
   }
