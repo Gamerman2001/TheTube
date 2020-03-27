@@ -12,7 +12,7 @@ export function Rating({ likeCount, dislikeCount }) {
   }
   return (
     <div className="rating">
-      <div className="thumb-up">
+      <div className="thumbs-up">
         <Icon name="thumbs outline up" /> <span>{likeCount}</span>
       </div>
       <div className="thumbs-down">

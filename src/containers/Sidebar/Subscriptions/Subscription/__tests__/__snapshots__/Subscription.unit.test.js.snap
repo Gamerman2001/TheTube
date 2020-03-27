@@ -1,23 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Subscription Renders Subscription with  1`] = `
-<MenuItem>
-  <div
-    className="subscription"
-  >
-    <div>
-      <Image
-        as="img"
-        avatar={true}
-        src="http://via.placeholder.com/28x28"
-        ui={true}
-      />
-      <span />
-    </div>
-  </div>
-</MenuItem>
-`;
-
 exports[`Subscription Renders Subscription with Broadcasting property 1`] = `
 <MenuItem>
   <div
@@ -66,24 +48,6 @@ exports[`Subscription Renders Subscription with video count for label 1`] = `
 `;
 
 exports[`Subscription should render Subscription 1`] = `
-<MenuItem>
-  <div
-    className="subscription"
-  >
-    <div>
-      <Image
-        as="img"
-        avatar={true}
-        src="http://via.placeholder.com/28x28"
-        ui={true}
-      />
-      <span />
-    </div>
-  </div>
-</MenuItem>
-`;
-
-exports[`should render Subscription 1`] = `
 <MenuItem>
   <div
     className="subscription"
