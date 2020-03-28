@@ -5,7 +5,7 @@ import "./VideoInfoBox.scss";
 
 export class VideoInfoBox extends Component {
   state = {
-    collapsed: false
+    collapsed: true
   };
 
   onToggleCollapseButtonClick = () => {
