@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./Rating.scss";
 import { Icon, Progress } from "semantic-ui-react";
 
@@ -23,6 +22,3 @@ export function Rating({ likeCount, dislikeCount }) {
   );
 }
 
-// Rating.propTypes = {
-
-// }

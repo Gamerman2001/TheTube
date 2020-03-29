@@ -1,5 +1,4 @@
-import React, { Component, useState } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from "react";
 import { Image, Button } from "semantic-ui-react";
 import "./VideoInfoBox.scss";
 
@@ -58,4 +57,4 @@ export class VideoInfoBox extends Component {
   }
 }
 
-console.log(this, "inside video info box");
+
