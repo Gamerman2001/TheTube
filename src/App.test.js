@@ -5,6 +5,7 @@ import { create } from "react-test-renderer";
 import React from 'react';
 import {shallow} from 'enzyme'
 import {App} from './App';
+import assert from 'assert'
 
 test('Renders App component', () => {
   const wrapper = shallow(
@@ -45,3 +46,5 @@ describe("Button component", () => {
     expect(button.props.children).toBe("PROCEED TO CHECKOUT");
   });
 });
+
+assert.deepEqual({'hi': "no"},{'hi': 'no'})

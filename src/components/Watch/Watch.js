@@ -20,8 +20,8 @@ export class Watch extends Component {
         <VideoInfoBox />
         <Comments />
         <RelatedVideos className='relatedVideos'/>
-
       </div>
     )
   }
 }
+
