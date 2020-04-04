@@ -4,22 +4,22 @@ import "./VideoInfoBox.scss";
 
 export class VideoInfoBox extends Component {
   state = {
-    collapsed: true
+    collapsed: true,
   };
 
   onToggleCollapseButtonClick = () => {
-    this.setState(prevState => {
+    this.setState((prevState) => {
       return {
-        collapsed: !prevState.collapsed
+        collapsed: !prevState.collapsed,
       };
     });
   };
   render() {
     let descriptionTextClass = "collapsed";
     let buttonTitle = "Show More";
-    if(!this.state.collapsed) {
-      descriptionTextClass = 'expanded'
-      buttonTitle = 'Show Less'
+    if (!this.state.collapsed) {
+      descriptionTextClass = "expanded";
+      buttonTitle = "Show Less";
     }
     return (
       <div className="video-info-box">
@@ -33,16 +33,15 @@ export class VideoInfoBox extends Component {
           <div className="video-publication-date"> 04 10 1999</div>
         </div>
         <Button color="youtube">91.5k to subscribe</Button>
-        <div className="video-description"
-        >
+        <div className="video-description">
           <div className={descriptionTextClass}>
-          <p>paragraph 1</p>
-          <p>paragraph 2</p>
-          <p>paragraph 3</p>
-          <p>paragraph 4</p>
-          <p>paragraph 5</p>
+            <p>paragraph 1</p>
+            <p>paragraph 2</p>
+            <p>paragraph 3</p>
+            <p>paragraph 4</p>
+            <p>paragraph 5</p>
           </div>
-          
+
           <Button
             compact
             onClick={() => {
@@ -56,5 +55,3 @@ export class VideoInfoBox extends Component {
     );
   }
 }
-
-
