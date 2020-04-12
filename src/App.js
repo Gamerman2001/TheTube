@@ -10,8 +10,8 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import { youtubeLibraryLoaded } from "./store/actions/api";
 
-const API_KEY = "";
-
+const API_KEY = process.env.REACT_APP_YOUTUBE_API || "";
+console.log(process.env.REACT_APP_YOUTUBE_API);
 class App extends Component {
   componentDidMount() {
     this.loadYoutubeApi();

@@ -7,8 +7,9 @@ import { Provider } from "react-redux";
 import "semantic-ui-css/semantic.min.css";
 import { BrowserRouter } from "react-router-dom";
 import { configureStore } from "./store/configureStore";
+const dotenv = require("dotenv").config;
+dotenv();
 
-console.log(window);
 const store = configureStore();
 
 ReactDOM.render(
@@ -19,6 +20,8 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root")
 );
+
+console.log(process.env.PUBLIC_URL);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
