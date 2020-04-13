@@ -1,16 +1,23 @@
-import React from 'react'
-import './AddComments.scss'
-import {Form, Image, TextArea} from 'semantic-ui-react'
+import React from "react";
+import "./AddComments.scss";
+import { Form, Image, TextArea } from "semantic-ui-react";
 
-export  function AddComments() {
+export function AddComments() {
   return (
     <div className="add-comment">
-      <Image className='user-image' src='http://via.placeholder.com/48x48' circular/>
+      <Image
+        className="user-image"
+        src="http://via.placeholder.com/48x48"
+        circular
+      />
 
       <Form>
-        <Form.TextArea control={TextArea} autoHeight placeholder="add public comment"/>
+        <Form.TextArea
+          control={TextArea}
+          autoHeight
+          placeholder="add public comment"
+        />
       </Form>
-      
     </div>
-  )
+  );
 }
